@@ -1,0 +1,17 @@
+# Local / sensitive files
+.env
+.env.*
+config/local.php
+
+# User uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
